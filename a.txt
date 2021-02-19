@@ -2,5 +2,47 @@
 	
 <main>
 // your code here
+package src.Test;
 
+import src.sk.itsovy.dolinsky.unittests.MyMath;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+class MyMathTest {
+
+    private MyMath myMath;
+    @org.junit.jupiter.api.BeforeEach
+    void setUp() {
+        myMath=new MyMath();
+    }
+
+    @org.junit.jupiter.api.AfterEach
+    void tearDown() {
+    }
+
+    @org.junit.jupiter.api.Test
+    void isPrimeNumber() {
+        assertTrue(myMath.isPrimeNumber(2));
+        assertTrue(myMath.isPrimeNumber(3));
+        assertTrue(myMath.isPrimeNumber(7));
+        assertTrue(myMath.isPrimeNumber(31));
+        assertTrue(myMath.isPrimeNumber(47));
+        assertTrue(myMath.isPrimeNumber(997));
+        assertTrue(myMath.isPrimeNumber(89));
+        assertFalse(myMath.isPrimeNumber(0));
+        assertFalse(myMath.isPrimeNumber(1));
+        assertFalse(myMath.isPrimeNumber(4));
+        assertFalse(myMath.isPrimeNumber(9));
+        assertFalse(myMath.isPrimeNumber(999));
+        assert
+    }
+
+    @org.junit.jupiter.api.Test
+    void getMin() {
+    }
+
+    @org.junit.jupiter.api.Test
+    void existTriangle() {
+    }
+}
 <footer>
