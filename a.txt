@@ -44,8 +44,9 @@ class MyMathTest {
     @org.junit.jupiter.api.Test
     void existTriangle() {
     }
+    
+    public void hello()
+    {
+    //test
+    }
 }
-<footer>
-Idem mergovať ;)
-
-HOTOVO
