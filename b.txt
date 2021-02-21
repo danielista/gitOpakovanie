@@ -1,3 +1,8 @@
 Just random text
 another line
 again just randomize
+
+
+nova brancha praca:
+No a v tomto súbore taktiež, niečo
+z práce v mojej osôbitnej branch...
