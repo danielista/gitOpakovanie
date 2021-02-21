@@ -47,3 +47,5 @@ class MyMathTest {
 }
 <footer>
 Idem mergovať ;)
+
+HOTOVO
